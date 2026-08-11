@@ -1,0 +1,29 @@
+# 가상환경
+.venv/
+venv/
+env/
+
+# 파이썬
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 주피터
+.ipynb_checkpoints/
+
+# 환경변수
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 에디터 (단, 공용 설정인 .vscode/settings.json 은 추적)
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json

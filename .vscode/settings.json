@@ -1,0 +1,9 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+
+    // 노트북의 작업 디렉터리를 "노트북 파일이 있는 폴더"로 고정합니다.
+    // 이 설정이 없으면 pd.read_csv("data.csv") 처럼 상대 경로로 적은 코드가
+    // 저장소 루트를 기준으로 동작해 FileNotFoundError 가 발생합니다.
+    "jupyter.notebookFileRoot": "${fileDirname}"
+}

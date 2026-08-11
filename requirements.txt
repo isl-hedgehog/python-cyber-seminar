@@ -1,0 +1,21 @@
+# 연구회 세미나 실습 공통 의존성
+#
+# 설치 방법
+#   Windows : .\setup.ps1  (또는 setup.bat 더블클릭)
+#   macOS   : ./setup.sh
+#
+# 수동 설치 시 : pip install -r requirements.txt
+#
+# 버전은 "최소 버전"으로 지정합니다. 참석자마다 파이썬 버전이 다르므로
+# 정확한 고정(==) 대신 하한선만 두어 설치 실패 가능성을 낮춥니다.
+
+# --- 데이터 처리 ---
+pandas>=2.2
+numpy>=1.26
+
+# --- 머신러닝 ---
+scikit-learn>=1.5
+
+# --- 노트북 실행 ---
+ipykernel>=6.29
+jupyterlab>=4.0
