@@ -115,7 +115,7 @@ Colab에서도 설치가 필요하다면, 노트북의 Colab 준비 셀에서 `p
 ## 5. 업로드 절차
 
 ```bash
-git clone https://github.com/hedgehog-TechnicalSeminar/python-cyber-seminar.git
+git clone https://github.com/isl-hedgehog/python-cyber-seminar.git
 cd python-cyber-seminar
 
 git switch -c 02-classification      # 회차 이름으로 브랜치 생성

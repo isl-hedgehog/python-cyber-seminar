@@ -32,7 +32,7 @@
 ### 1단계. 저장소 내려받기
 
 ```bash
-git clone https://github.com/hedgehog-TechnicalSeminar/python-cyber-seminar.git
+git clone https://github.com/isl-hedgehog/python-cyber-seminar.git
 cd python-cyber-seminar
 ```
 
@@ -93,7 +93,7 @@ jupyter lab
 설치가 잘 되지 않거나 노트북 사양이 부족할 때 사용하세요. 브라우저와 구글 계정만 있으면 됩니다.
 
 1. [Google Colab](https://colab.research.google.com/) 접속
-2. **GitHub** 탭 선택 후 `hedgehog-TechnicalSeminar/python-cyber-seminar` 검색
+2. **GitHub** 탭 선택 후 `isl-hedgehog/python-cyber-seminar` 검색
 3. 원하는 회차의 `.ipynb` 선택
 4. **맨 위의 `Google Colab 준비 셀` 을 가장 먼저 실행** — 저장소와 데이터 파일을 자동으로 내려받습니다
 5. 이후 셀을 순서대로 실행
