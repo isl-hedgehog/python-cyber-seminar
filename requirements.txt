@@ -19,3 +19,8 @@ scikit-learn>=1.5
 # --- 노트북 실행 ---
 ipykernel>=6.29
 jupyterlab>=4.0
+
+# --- 회차별 추가 의존성 ---
+# 2회차(적대적 악성코드)는 TensorFlow 등 무거운 패키지가 필요하고
+# Python 3.12 이하에서만 설치됩니다. 루트 환경과 분리했으니
+# 해당 회차는 02-adversarial-malware/requirements.txt 를 참고하세요.

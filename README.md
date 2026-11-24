@@ -10,6 +10,12 @@
 | 회차 | 폴더 | 주제 | 사용 데이터 |
 |---|---|---|---|
 | 1 | [`01-data-preprocessing`](01-data-preprocessing) | 데이터 분할 · 표준화 · 주성분분석 | 북한 미사일 발사 기록, PE 헤더 |
+| 2 | [`02-adversarial-malware`](02-adversarial-malware) | 적대적 예제(MalGAN) · 패커 분류 · 악성코드 드리프트 예측 | MalConv 모델, 정상 PE 샘플 |
+
+> **2회차 주의사항**
+> - **파이썬 3.12 이하가 필요합니다.** MalGAN 실습이 쓰는 TensorFlow가 3.13/3.14를 아직 지원하지 않습니다. 설치가 까다로우면 **Google Colab 사용을 권장**합니다(준비 셀이 필요한 패키지를 자동 설치).
+> - PE 샘플 데이터(약 440MB)는 용량이 커서 저장소에 포함하지 않습니다. 노트북 준비 셀의 `데이터_URL` 에 다운로드 주소를 넣거나, 해당 폴더를 직접 배치하세요. 모델 파일 `malconv.h5` 는 저장소에 포함되어 있습니다.
+> - 회차 전용 의존성은 [`02-adversarial-malware/requirements.txt`](02-adversarial-malware/requirements.txt) 를 참고하세요.
 
 ---
 

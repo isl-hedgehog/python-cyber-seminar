@@ -27,3 +27,13 @@ Thumbs.db
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
+
+# 02-adversarial-malware: 대용량 PE 샘플 데이터는 커밋하지 않음 (다운로드 셀로 받음)
+# (끝 슬래시 없이 — 디렉터리뿐 아니라 검증용 심볼릭 링크도 함께 제외)
+02-adversarial-malware/Benign PE Samples
+02-adversarial-malware/Benign PE Samples UPX
+02-adversarial-malware/Benign PE Samples Amber
+# MalGAN 생성물 / drift 그래프
+02-adversarial-malware/MalGAN_output/*
+!02-adversarial-malware/MalGAN_output/.gitkeep
+02-adversarial-malware/*.png
