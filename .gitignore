@@ -37,3 +37,6 @@ Thumbs.db
 02-adversarial-malware/MalGAN_output/*
 !02-adversarial-malware/MalGAN_output/.gitkeep
 02-adversarial-malware/*.png
+# 악성 PE 샘플은 절대 커밋/배포하지 않음 (실습자가 로컬에만 보유)
+02-adversarial-malware/Malicious PE Samples
+02-adversarial-malware/Malicious PE Samples/
